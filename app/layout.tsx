@@ -12,7 +12,7 @@ export const metadata = {
   description: 'Operational infrastructure for service firms',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ClerkProvider>
       <html lang="en" className={geist.variable}>
