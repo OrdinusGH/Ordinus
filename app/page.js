@@ -86,7 +86,9 @@ export default function Home() {
   .stl{font-size:30px}
   .cg{grid-template-columns:1fr}
   .ag{grid-template-columns:1fr;gap:2rem}
-  .sg{grid-template-columns:repeat(3,1fr)}
+  .ab{font-size:14px;line-height:2}
+.ab p{margin-bottom:1rem}
+.sg{grid-template-columns:1fr}
   .svg2{grid-template-columns:1fr}
   .ig2{grid-template-columns:1fr}
   .bb{flex-direction:column;gap:1rem;align-items:flex-start}
@@ -98,7 +100,7 @@ export default function Home() {
         .ag{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
         .ab{font-size:13px;font-weight:300;color:rgba(255,255,255,0.42);line-height:1.9}
         .ab p+p{margin-top:1rem}
-        .sg{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,0.06);border:0.5px solid rgba(255,255,255,0.06);border-radius:14px;overflow:hidden}
+.sg{display:grid;grid-template-columns:1fr;gap:1px;background:rgba(255,255,255,0.06);border:0.5px solid rgba(255,255,255,0.06);border-radius:14px;overflow:hidden}
         .sc{background:#0c0c14;padding:1.5rem 1rem;text-align:center}
         .sn{font-family:'Cormorant Garamond',serif;font-size:48px;font-weight:500;color:#5b7fff;line-height:1}
         .sl{font-size:11px;font-weight:300;color:rgba(255,255,255,0.35);margin-top:5px;line-height:1.5}
