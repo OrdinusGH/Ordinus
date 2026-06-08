@@ -75,6 +75,26 @@ export default function Home() {
         .foot{background:#050508;border-top:0.5px solid rgba(255,255,255,0.06);padding:2.5rem;display:flex;align-items:center;justify-content:space-between}
         .fl{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:rgba(255,255,255,0.35);letter-spacing:3px;text-transform:uppercase}
         .fr{font-size:11px;color:rgba(255,255,255,0.18);letter-spacing:0.5px}
+        @media(max-width:768px){
+  .nav-links a{display:none}
+  .btn-si{font-size:10px;padding:6px 14px}
+  .hero h1{font-size:42px}
+  .htag{font-size:9px}
+  .hero p{font-size:13px}
+  .hbtns{flex-direction:column;align-items:center}
+  .sec{padding:3rem 1.25rem}
+  .stl{font-size:30px}
+  .cg{grid-template-columns:1fr}
+  .ag{grid-template-columns:1fr;gap:2rem}
+  .sg{grid-template-columns:repeat(3,1fr)}
+  .svg2{grid-template-columns:1fr}
+  .ig2{grid-template-columns:1fr}
+  .bb{flex-direction:column;gap:1rem;align-items:flex-start}
+  .tabs{width:100%}
+  .tab{flex:1;text-align:center}
+  .foot{flex-direction:column;gap:0.5rem;text-align:center}
+  nav.nav{padding:0 1.25rem}
+}
         .ag{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
         .ab{font-size:13px;font-weight:300;color:rgba(255,255,255,0.42);line-height:1.9}
         .ab p+p{margin-top:1rem}
