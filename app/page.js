@@ -7,11 +7,11 @@ export default function Home() {
   const router = useRouter()
 
   return (
-    <main style={{fontFamily:"'Outfit',sans-serif",background:'#050508',color:'#e2e2ee',minHeight:'100vh'}}>
+    <main style={{fontFamily:"'Outfit',sans-serif",background:'linear-gradient(180deg, #111827 0%, #0f172a 55%, #0a1220 100%)',color:'#e2e2ee',minHeight:'100vh'}}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&display=swap');
         *{box-sizing:border-box;margin:0;padding:0}
-        .nav{display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;height:66px;background:#050508;border-bottom:0.5px solid rgba(255,255,255,0.07);position:sticky;top:0;z-index:100}
+        .nav{display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;height:66px;background:rgba(15,23,42,0.94);border-bottom:0.5px solid rgba(255,255,255,0.08);position:sticky;top:0;z-index:100}
         .logo{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;letter-spacing:4px;color:#fff;text-transform:uppercase}
         .logo em{color:#7c9fff;font-style:italic}
         .nav-links{display:flex;gap:2.5rem;align-items:center}
@@ -19,9 +19,9 @@ export default function Home() {
         .nav-links a:hover{color:#fff}
         .btn-si{font-size:11px;font-weight:500;padding:8px 20px;letter-spacing:1px;text-transform:uppercase;border:0.5px solid rgba(255,255,255,0.18);border-radius:6px;background:transparent;color:#fff;cursor:pointer}
         .btn-si:hover{background:rgba(255,255,255,0.05)}
-        .hero{min-height:520px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:5rem 2rem;background:#050508;position:relative;overflow:hidden}
-        .hg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.018) 1px,transparent 1px);background-size:52px 52px}
-        .hgl{position:absolute;width:500px;height:220px;background:radial-gradient(ellipse,rgba(100,130,255,0.1) 0%,transparent 70%);top:45%;left:50%;transform:translate(-50%,-50%)}
+        .hero{min-height:520px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:5rem 2rem;background:linear-gradient(180deg, rgba(15,23,42,0.96) 0%, rgba(15,23,42,0.88) 45%, rgba(9,14,24,0.98) 100%);position:relative;overflow:hidden}
+        .hg{position:absolute;inset:0;background-image:radial-gradient(circle at 20% 20%, rgba(96,165,250,0.14), transparent 25%),radial-gradient(circle at 80% 15%, rgba(168,85,247,0.12), transparent 22%),linear-gradient(180deg, rgba(255,255,255,0.02) 1px,transparent 1px),linear-gradient(90deg, rgba(255,255,255,0.02) 1px,transparent 1px);background-size:52px 52px,52px 52px,52px 52px,52px 52px;pointer-events:none}
+        .hgl{position:absolute;width:520px;height:260px;background:radial-gradient(circle at center, rgba(99,102,241,0.18) 0%, transparent 62%),radial-gradient(circle at 80% 80%, rgba(148,163,184,0.08) 0%, transparent 55%);top:45%;left:50%;transform:translate(-50%,-50%);filter:blur(2px)}
         .htag{font-size:10px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:#7c9fff;border:0.5px solid rgba(124,159,255,0.2);padding:5px 18px;border-radius:100px;margin-bottom:2.5rem;position:relative;z-index:1}
         .hero h1{font-family:'Cormorant Garamond',serif;font-size:82px;font-weight:500;line-height:0.92;color:#fff;position:relative;z-index:1;margin-bottom:1.5rem}
         .hero h1 em{font-style:italic;color:#7c9fff}
